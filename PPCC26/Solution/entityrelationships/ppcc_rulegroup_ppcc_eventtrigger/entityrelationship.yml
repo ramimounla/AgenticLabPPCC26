@@ -1,0 +1,31 @@
+EntityRelationship:
+  '@Name': ppcc_rulegroup_ppcc_eventtrigger
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0.0.1
+  IsHierarchical: 0
+  ReferencingEntityName: ppcc_rulegroup
+  ReferencedEntityName: ppcc_eventtrigger
+  CascadeAssign: Cascade
+  CascadeDelete: Cascade
+  CascadeArchive: RemoveLink
+  CascadeReparent: Cascade
+  CascadeShare: Cascade
+  CascadeUnshare: Cascade
+  CascadeRollupView: NoCascade
+  IsValidForAdvancedFind: 1
+  ReferencingAttributeName: ppcc_eventtriggerid
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': The event trigger that this rule group belongs to.
+        '@languagecode': 1033
+  EntityRelationshipRoles:
+    EntityRelationshipRole:
+    - NavPaneDisplayOption: UseCollectionName
+      NavPaneArea: Details
+      NavPaneOrder: 10000
+      NavigationPropertyName: ppcc_eventtriggerid
+      RelationshipRoleType: 1
+    - NavigationPropertyName: ppcc_rulegroup_ppcc_eventtrigger
+      RelationshipRoleType: 0

@@ -1,0 +1,31 @@
+EntityRelationship:
+  '@Name': ppcc_ruleaction_ppcc_rulegroup
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0.0.1
+  IsHierarchical: 0
+  ReferencingEntityName: ppcc_ruleaction
+  ReferencedEntityName: ppcc_rulegroup
+  CascadeAssign: Cascade
+  CascadeDelete: Cascade
+  CascadeArchive: RemoveLink
+  CascadeReparent: Cascade
+  CascadeShare: Cascade
+  CascadeUnshare: Cascade
+  CascadeRollupView: NoCascade
+  IsValidForAdvancedFind: 1
+  ReferencingAttributeName: ppcc_rulegroupid
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': The rule group that this action belongs to.
+        '@languagecode': 1033
+  EntityRelationshipRoles:
+    EntityRelationshipRole:
+    - NavPaneDisplayOption: UseCollectionName
+      NavPaneArea: Details
+      NavPaneOrder: 10000
+      NavigationPropertyName: ppcc_rulegroupid
+      RelationshipRoleType: 1
+    - NavigationPropertyName: ppcc_ruleaction_ppcc_rulegroup
+      RelationshipRoleType: 0

@@ -1,0 +1,70 @@
+attribute:
+  '@PhysicalName': ppcc_Fatality
+  Type: bit
+  Name: ppcc_fatality
+  LogicalName: ppcc_fatality
+  RequiredLevel: none
+  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0.0.1
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  AutoNumberFormat: ''
+  IsSearchable: 0
+  IsFilterable: 0
+  IsRetrievable: 0
+  IsLocalizable: 0
+  AppDefaultValue: 0
+  optionset:
+    '@Name': ppcc_submission_ppcc_fatality
+    OptionSetType: bit
+    IntroducedVersion: 1.0.0.1
+    IsCustomizable: 1
+    ExternalTypeName: ''
+    displaynames:
+      displayname:
+        '@description': Fatality
+        '@languagecode': 1033
+    Descriptions:
+      Description:
+        '@description': ''
+        '@languagecode': 1033
+    options:
+      option:
+      - '@value': 1
+        '@ExternalValue': ''
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': Yes
+            '@languagecode': 1033
+      - '@value': 0
+        '@ExternalValue': ''
+        '@IsHidden': 0
+        labels:
+          label:
+            '@description': No
+            '@languagecode': 1033
+  displaynames:
+    displayname:
+      '@description': Fatality
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': ''
+      '@languagecode': 1033

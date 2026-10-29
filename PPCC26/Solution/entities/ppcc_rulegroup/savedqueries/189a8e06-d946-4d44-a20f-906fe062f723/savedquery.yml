@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{189a8e06-d946-4d44-a20f-906fe062f723}'
+  layoutxml:
+    grid:
+      '@name': ppcc_rulegroups
+      '@jump': ppcc_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': ppcc_rulegroup
+        '@id': ppcc_rulegroupid
+        cell:
+        - '@name': ppcc_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 2
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': ppcc_rulegroup
+        attribute:
+        - '@name': ppcc_rulegroupid
+        - '@name': ppcc_name
+        - '@name': createdon
+        order:
+          '@attribute': ppcc_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0.0.1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Rule Group Associated View
+      '@languagecode': 1033

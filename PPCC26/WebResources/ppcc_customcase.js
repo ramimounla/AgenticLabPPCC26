@@ -1,0 +1,22 @@
+/**
+ * Form OnLoad event handler for Dynamics 365 CRM
+ * Shows or hides sections based on field values
+ * Makes fields mandatory based on conditions
+ * 
+ * IMPORTANT: This script requires ai_formUtilities.js to be added to the form as a web resource
+ * and loaded before this script. The library creates the AI.FormUtilities namespace.
+ * 
+ * @param {object} executionContext - The execution context of the form event
+ */
+function ppcc_customcaseOnLoad(executionContext) {
+
+    // Get the form context
+    var formContext = executionContext.getFormContext();
+
+    // Check if our utility library is loaded
+    if (typeof AI === 'undefined' || typeof AI.FormUtilities === 'undefined') {
+        console.error("AI.FormUtilities library is not loaded. Please add ai_formUtilities.js as a web resource and ensure it loads before this script.");
+        return;
+    }
+
+}

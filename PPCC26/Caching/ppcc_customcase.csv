@@ -1,0 +1,26 @@
+﻿"DisplayName","LogicalName","SchemaName","DataType","IsCustomField","Description","IsRequired","IsAudited","IsPrimaryId","IsPrimaryName","IsValidForRead","IsValidForCreate","IsValidForUpdate","MaxLength","Format"
+"createdbyname","createdbyname","CreatedByName","String","False","","False","False",,,,,,"100","Text"
+"createdbyyominame","createdbyyominame","CreatedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Created By (Delegate)","createdonbehalfby","CreatedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who created the record.","False","False",,,,,,,
+"createdonbehalfbyname","createdonbehalfbyname","CreatedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"createdonbehalfbyyominame","createdonbehalfbyyominame","CreatedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyname","modifiedbyname","ModifiedByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyyominame","modifiedbyyominame","ModifiedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Modified By (Delegate)","modifiedonbehalfby","ModifiedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who modified the record.","False","False",,,,,,,
+"modifiedonbehalfbyname","modifiedonbehalfbyname","ModifiedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedonbehalfbyyominame","modifiedonbehalfbyyominame","ModifiedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"owneridname","owneridname","OwnerIdName","String","False","Name of the owner","False","False",,,,,,"100","Text"
+"owneridtype","owneridtype","OwnerIdType","EntityName","False","Owner Id Type","False","True",,,,,,,
+"owneridyominame","owneridyominame","OwnerIdYomiName","String","False","Yomi name of the owner","False","False",,,,,,"100","Text"
+"owningbusinessunitname","owningbusinessunitname","OwningBusinessUnitName","String","False","","False","True",,,,,,"100","Text"
+"Custom Case","ppcc_customcaseid","ppcc_CustomCaseId","Uniqueidentifier","False","Unique identifier for entity instances","False","False",,,,,,,
+"Description","ppcc_description","ppcc_Description","String","True","","False","True",,,,,,"4000","TextArea"
+"Due","ppcc_due","ppcc_Due","DateTime","True","","False","True",,,,,,,"DateAndTime"
+"Name","ppcc_name","ppcc_Name","String","True","","False","True",,,,,,"850","Text"
+"Other","ppcc_other","ppcc_Other","String","True","","False","True",,,,,,"100","Text"
+"Priority","ppcc_priority","ppcc_Priority","Picklist","True","","False","True",,,,,,,
+"ppcc_priorityname","ppcc_priorityname","ppcc_priorityName","Virtual","True","","False","False",,,,,,,
+"Type","ppcc_type","ppcc_Type","Picklist","True","","False","True",,,,,,,
+"ppcc_typename","ppcc_typename","ppcc_typeName","Virtual","True","","False","False",,,,,,,
+"statecodename","statecodename","statecodeName","Virtual","False","","False","False",,,,,,,
+"statuscodename","statuscodename","statuscodeName","Virtual","False","","False","False",,,,,,,

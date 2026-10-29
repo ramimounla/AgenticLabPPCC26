@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPCC2026", "PPCC2026.csproj", "{993B1D7C-291A-4E1B-8792-D8C25D0341DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		GenerateXRMTypes|Any CPU = GenerateXRMTypes|Any CPU
+		GenerateXRMTypes|x64 = GenerateXRMTypes|x64
+		GenerateXRMTypes|x86 = GenerateXRMTypes|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Debug|x64.Build.0 = Debug|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Debug|x86.Build.0 = Debug|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.GenerateXRMTypes|Any CPU.ActiveCfg = Debug|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.GenerateXRMTypes|Any CPU.Build.0 = Debug|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.GenerateXRMTypes|x64.ActiveCfg = GenerateXRMTypes|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.GenerateXRMTypes|x64.Build.0 = GenerateXRMTypes|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.GenerateXRMTypes|x86.ActiveCfg = GenerateXRMTypes|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.GenerateXRMTypes|x86.Build.0 = GenerateXRMTypes|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Release|x64.ActiveCfg = Release|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Release|x64.Build.0 = Release|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Release|x86.ActiveCfg = Release|Any CPU
+		{993B1D7C-291A-4E1B-8792-D8C25D0341DE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB8196BF-AF15-4176-9E38-2B922C171B59}
+	EndGlobalSection
+EndGlobal

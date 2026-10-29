@@ -1,0 +1,10 @@
+dvtablesearch:
+  '@dvtablesearchid': 9aff030e-f9c4-f111-aaad-6045bd05d779
+  appmoduleuniquename: ppcc_PPCC2026
+  iscustomizable: 1
+  m365appmoduleid:
+    uniquename: ppcc_PPCC2026
+  name: M365_Primary_model_ppcc_PPCC2026
+  searchtype: 0
+  statecode: 1
+  statuscode: 2

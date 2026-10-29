@@ -1,0 +1,260 @@
+systemform:
+  formid: '{70df01ee-6ac7-4618-945c-cea0c94d5862}'
+  IntroducedVersion: 1.0.0.1
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    '@headerdensity': HighWithControls
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{2d3c9b78-e3a7-4e86-a27c-7ca813af298b}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{073f91d3-5509-4bd0-9642-0ab7df1dc759}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{edcddfea-8abe-4d75-9362-83277bb28e53}'
+                      labels:
+                        label:
+                          '@description': Event Trigger Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': ppcc_name
+                  - cell:
+                      '@id': '{9b1bec59-0176-499b-8465-a3031b321ea8}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Description
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_description
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': ppcc_description
+                        '@disabled': false
+                  - cell:
+                      '@id': '{3d65f649-8e45-403b-826f-575f6b7e9926}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Table
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_table
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': ppcc_table
+                        '@disabled': false
+                  - cell:
+                      '@id': '{6c90fcd5-4dbf-46a8-bd20-cc8e9a451c13}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Message
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_message
+                        '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+                        '@datafieldname': ppcc_message
+                        '@disabled': false
+                  - cell:
+                      '@id': '{516ae30c-9807-4c0d-875e-73f78b21db58}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Stage
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_stage
+                        '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+                        '@datafieldname': ppcc_stage
+                        '@disabled': false
+                  - cell:
+                      '@id': '{84eaa4d4-2298-41cb-9a5c-a7cb5f294c9c}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Attributes
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_attributes
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': ppcc_attributes
+                        '@disabled': false
+                  - cell:
+                      '@id': '{a374852d-eb34-4890-8d34-70b960c90aca}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Order
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_order
+                        '@classid': '{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}'
+                        '@datafieldname': ppcc_order
+                        '@disabled': false
+                  - cell:
+                      '@id': '{de548f85-c7ad-4ac2-af5e-b475d45ddd8b}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Pre Image Attributes
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_preimageattributes
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': ppcc_preimageattributes
+                        '@disabled': false
+                  - cell:
+                      '@id': '{baa8f3a1-d359-4610-b59e-c485408e292d}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Execute All Rules
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_executeallrules
+                        '@classid': '{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}'
+                        '@datafieldname': ppcc_executeallrules
+                        '@disabled': false
+                  - cell:
+                      '@locklevel': 0
+                      '@id': '{270459b7-39d1-4e8b-a63c-b775f3ebef84}'
+                      '@rowspan': 4
+                      '@colspan': 1
+                      '@auto': false
+                      labels:
+                        label:
+                          '@description': Rule Groups
+                          '@languagecode': 1033
+                      control:
+                        '@indicationOfSubgrid': true
+                        '@id': Subgrid_new_1
+                        '@classid': '{E7A81278-8635-4D9E-8D4D-59480B391C5B}'
+                        parameters:
+                          RecordsPerPage: 4
+                          AutoExpand: Fixed
+                          EnableQuickFind: false
+                          EnableViewPicker: false
+                          EnableChartPicker: true
+                          ChartGridMode: All
+                          RelationshipName: ppcc_rulegroup_ppcc_eventtrigger
+                          TargetEntityType: ppcc_rulegroup
+                          ViewId: '{8350759A-5078-4FA4-8EE8-C3C7D2B4A7CF}'
+                          ViewIds: '{8350759A-5078-4FA4-8EE8-C3C7D2B4A7CF}'
+                  - 
+                  - 
+                  - 
+    header:
+      '@id': '{df029fd1-6a2d-4c28-b793-221131b9b828}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{74d67def-6686-44b7-bfa6-1e40963e1359}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{f37c9dd8-121e-4c54-ba6a-93aa46793eec}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{8ebf119e-670a-4be1-9d3b-fa16290826f9}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{e7754da6-8ec1-4d67-9e5d-3726fb7d03fe}'
+            '@colspan': 1
+            '@rowspan': 1
+            labels:
+              label:
+                '@description': Owner
+                '@languagecode': 1033
+            control:
+              '@id': header_ownerid
+              '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+              '@datafieldname': ownerid
+    footer:
+      '@id': '{df11b47f-dec2-454a-8ab8-684ba7f0925f}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{61c440f5-1ed5-4342-864d-b4a045547ee2}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{80f19ae5-e874-43a8-89a0-9c37d5f2d7fe}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{ae007991-5a03-42eb-90b0-4e05130e9b4c}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    DisplayConditions:
+      '@Order': 0
+      '@FallbackForm': true
+      Everyone: 
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

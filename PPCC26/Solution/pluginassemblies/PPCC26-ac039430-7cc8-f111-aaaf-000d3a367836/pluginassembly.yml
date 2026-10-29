@@ -1,0 +1,14 @@
+PluginAssembly:
+  '@FullName': PPCC26, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4fff0d5af8c1f073
+  '@PluginAssemblyId': ac039430-7cc8-f111-aaaf-000d3a367836
+  '@CustomizationLevel': 1
+  IsolationMode: 2
+  SourceType: 0
+  IntroducedVersion: 1.0
+  FileName: /pluginassemblies/PPCC26-ac039430-7cc8-f111-aaaf-000d3a367836/PPCC26.dll
+  PluginTypes:
+    PluginType:
+      '@AssemblyQualifiedName': PPCC26.Plugins.RuleEnginePlugin, PPCC26, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4fff0d5af8c1f073
+      '@PluginTypeId': ae039430-7cc8-f111-aaaf-000d3a367836
+      '@Name': PPCC26.Plugins.RuleEnginePlugin
+      FriendlyName: PPCC26.Plugins.RuleEnginePlugin

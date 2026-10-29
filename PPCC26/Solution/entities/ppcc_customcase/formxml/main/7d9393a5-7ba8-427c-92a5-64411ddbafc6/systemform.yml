@@ -1,0 +1,213 @@
+systemform:
+  formid: '{7d9393a5-7ba8-427c-92a5-64411ddbafc6}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    '@headerdensity': HighWithControls
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{4f6b94bb-7d58-4797-94df-d1c7276a8222}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{47ad8060-34db-44cb-9952-3fed6efe8a28}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{85ced12c-142c-4051-a6eb-fd987dd11a07}'
+                      labels:
+                        label:
+                          '@description': Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': ppcc_name
+                  - cell:
+                      '@id': '{ed221ddc-c6c1-4521-a5e1-86391389818d}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Type
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_type
+                        '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+                        '@datafieldname': ppcc_type
+                        '@disabled': false
+                  - cell:
+                      '@id': '{127ad8f1-bfd2-405a-82bf-43fe5e2b514f}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Other
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_other
+                        '@classid': '{4273EDBD-AC1D-40D3-9FB2-095C621B552D}'
+                        '@datafieldname': ppcc_other
+                        '@disabled': false
+                  - cell:
+                      '@id': '{a2702d0c-d276-4ec0-b2b4-2150e3f927b0}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Priority
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_priority
+                        '@classid': '{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}'
+                        '@datafieldname': ppcc_priority
+                        '@disabled': false
+                  - cell:
+                      '@id': '{9bb75575-1663-41ce-9444-c408b0eace65}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 4
+                      '@auto': true
+                      labels:
+                        label:
+                          '@description': Description
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_description
+                        '@classid': '{E0DECE4B-6FC8-4A8F-A065-082708572369}'
+                        '@datafieldname': ppcc_description
+                        '@disabled': false
+                  - 
+                  - 
+                  - 
+                  - cell:
+                      '@id': '{f4d2c5cc-9127-457d-8144-29cdd0db0ce6}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Due
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_due
+                        '@classid': '{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}'
+                        '@datafieldname': ppcc_due
+                        '@disabled': false
+    header:
+      '@id': '{855f2d96-73c2-4ea9-862e-cd5d13b66dd5}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{7e20711d-72f6-409f-952d-732199e3a6cf}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{a7ea3d1b-0d59-4bd6-8614-88ddc6485ec4}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{4fe4eeac-f877-4352-afc0-3fbba7c752aa}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{9357f74e-ae1b-4097-9379-dfc2f3cd2325}'
+            '@colspan': 1
+            '@rowspan': 1
+            labels:
+              label:
+                '@description': Owner
+                '@languagecode': 1033
+            control:
+              '@id': header_ownerid
+              '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+              '@datafieldname': ownerid
+    footer:
+      '@id': '{e74001f9-b00d-4586-9d7d-6d41016470ca}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{72524580-1400-4f1d-8f03-4c1a32da5eb7}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{19b26eb3-3175-4c52-b2d7-682ea5b09e6a}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{39363067-1b0f-457e-b888-7578edc53d7c}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    DisplayConditions:
+      '@Order': 0
+      '@FallbackForm': true
+      Everyone: 
+    formLibraries:
+      Library:
+      - '@name': ppcc_formUtilities
+        '@libraryUniqueId': '{ca68a80a-3f74-470c-bc4a-716fe8fbc6b4}'
+      - '@name': ppcc_customcase
+        '@libraryUniqueId': '{0a820abd-f6cf-4042-ad4c-05a002e623bf}'
+    events:
+      event:
+        '@name': onload
+        '@application': false
+        '@active': false
+        Handlers:
+          Handler:
+            '@functionName': ppcc_customcaseOnLoad
+            '@libraryName': ppcc_customcase
+            '@handlerUniqueId': '{863483ee-79af-4f72-badf-f4324e832b73}'
+            '@enabled': true
+            '@parameters': ''
+            '@passExecutionContext': true
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

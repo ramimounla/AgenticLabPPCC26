@@ -1,0 +1,14 @@
+﻿{
+    "table":  "ppcc_eventtrigger",
+    "choices":  {
+                    "ppcc_message":  {
+                                         "10000000":  "Create",
+                                         "10000020":  "Create and Update",
+                                         "10000010":  "Update"
+                                     },
+                    "ppcc_stage":  {
+                                       "20":  "Pre-operation",
+                                       "40":  "Post-operation"
+                                   }
+                }
+}

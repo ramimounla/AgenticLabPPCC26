@@ -1,0 +1,8 @@
+connectionreference:
+  '@connectionreferencelogicalname': ppcc_sharedcommondataserviceforapps_f1fa4
+  connectionreferencedisplayname: Microsoft Dataverse PPCC26-f1fa4
+  connectorid: /providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps
+  iscustomizable: 1
+  promptingbehavior: 0
+  statecode: 0
+  statuscode: 1

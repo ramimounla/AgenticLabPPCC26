@@ -1,0 +1,11 @@
+﻿{
+    "table":  "ppcc_rulecondition",
+    "choices":  {
+                    "ppcc_operand":  {
+                                         "100000002":  "Contains Data",
+                                         "100000003":  "Does Not Contain Data",
+                                         "100000001":  "Not Equals",
+                                         "100000000":  "Equals"
+                                     }
+                }
+}

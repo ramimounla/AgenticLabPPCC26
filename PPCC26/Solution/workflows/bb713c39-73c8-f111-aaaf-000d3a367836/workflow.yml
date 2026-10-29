@@ -1,0 +1,29 @@
+Workflow:
+  '@WorkflowId': '{bb713c39-73c8-f111-aaaf-000d3a367836}'
+  '@Name': Sample
+  XamlFileName: /workflows/bb713c39-73c8-f111-aaaf-000d3a367836/Sample-BB713C39-73C8-F111-AAAF-000D3A367836.xaml
+  Type: 1
+  Subprocess: 0
+  Category: 0
+  Mode: 1
+  Scope: 1
+  OnDemand: 0
+  TriggerOnUpdateAttributeList: ''
+  TriggerOnCreate: 1
+  TriggerOnDelete: 0
+  AsyncAutodelete: 0
+  SyncWorkflowLogOnFailure: 1
+  StateCode: 0
+  StatusCode: 1
+  CreateStage: 40
+  RunAs: 1
+  IsTransacted: 1
+  IntroducedVersion: 1.0.0.1
+  IsCustomizable: 1
+  IsCustomProcessingStepAllowedForOtherPublishers: 1
+  ModernFlowType: 0
+  PrimaryEntity: ppcc_Submission
+  LocalizedNames:
+    LocalizedName:
+      '@languagecode': 1033
+      '@description': Sample

@@ -1,0 +1,4 @@
+AttributeDisplayName,AttributeSchemaName,AttributeType,MaxLength,Format,TargetTable,IsRequired,IsAudited,Description,Precision,MinValue,MaxValue,IsGlobal,ChoiceValues
+"Description","description","Text",2000,,,"true","true","Describes the purpose and behavior of the event trigger.",,,,,
+"Message Type","messagetype","Choice",,,,"true","true","The message that fires this trigger.",,,,"false","Inquiry|Notification|Incident|Fatality"
+"Priority","priority","Choice",,,,"true","true","The comparison operator applied to the field value.",,,,"true","High|Medium|Low"

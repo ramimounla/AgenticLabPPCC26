@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{08136f2b-6195-4eaf-a9a7-ab58f732cf93}'
+  layoutxml:
+    grid:
+      '@name': ppcc_customcases
+      '@jump': ppcc_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': ppcc_customcase
+        '@id': ppcc_customcaseid
+        cell:
+        - '@name': ppcc_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': ppcc_customcase
+        attribute:
+        - '@name': ppcc_customcaseid
+        - '@name': ppcc_name
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Custom Case Lookup View
+      '@languagecode': 1033

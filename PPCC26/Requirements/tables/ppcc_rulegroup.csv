@@ -1,0 +1,3 @@
+﻿AttributeDisplayName,AttributeSchemaName,AttributeType,MaxLength,Format,TargetTable,IsRequired,IsAudited,Description,Precision,MinValue,MaxValue,IsGlobal,ChoiceValues
+"Event Trigger","eventtriggerid","Lookup",,,"ppcc_eventtrigger","true","true","The event trigger that this rule group belongs to.",,,,,
+"Order","order","Integer",,,,"false","true","Execution order of this rule group relative to others within the same event trigger.",,0,1000,,

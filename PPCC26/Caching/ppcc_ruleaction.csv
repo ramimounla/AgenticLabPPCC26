@@ -1,0 +1,28 @@
+﻿"DisplayName","LogicalName","SchemaName","DataType","IsCustomField","Description","IsRequired","IsAudited","IsPrimaryId","IsPrimaryName","IsValidForRead","IsValidForCreate","IsValidForUpdate","MaxLength","Format"
+"createdbyname","createdbyname","CreatedByName","String","False","","False","False",,,,,,"100","Text"
+"createdbyyominame","createdbyyominame","CreatedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Created By (Delegate)","createdonbehalfby","CreatedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who created the record.","False","False",,,,,,,
+"createdonbehalfbyname","createdonbehalfbyname","CreatedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"createdonbehalfbyyominame","createdonbehalfbyyominame","CreatedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyname","modifiedbyname","ModifiedByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyyominame","modifiedbyyominame","ModifiedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Modified By (Delegate)","modifiedonbehalfby","ModifiedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who modified the record.","False","False",,,,,,,
+"modifiedonbehalfbyname","modifiedonbehalfbyname","ModifiedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedonbehalfbyyominame","modifiedonbehalfbyyominame","ModifiedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"owneridname","owneridname","OwnerIdName","String","False","Name of the owner","False","False",,,,,,"100","Text"
+"owneridtype","owneridtype","OwnerIdType","EntityName","False","Owner Id Type","False","True",,,,,,,
+"owneridyominame","owneridyominame","OwnerIdYomiName","String","False","Yomi name of the owner","False","False",,,,,,"100","Text"
+"owningbusinessunitname","owningbusinessunitname","OwningBusinessUnitName","String","False","","False","True",,,,,,"100","Text"
+"Action Type","ppcc_actiontype","ppcc_actiontype","Picklist","True","","False","True",,,,,,,
+"ppcc_actiontypename","ppcc_actiontypename","ppcc_actiontypeName","Virtual","True","","False","False",,,,,,,
+"Destination Attribute","ppcc_destinationattribute","ppcc_destinationattribute","String","True","Logical name of the attribute this action updates, optionally prefixed with a related entity (e.g., ppcc_journey.ppcc_applicationsinterviewcount).","False","True",,,,,,"250","Text"
+"Directives JSON","ppcc_directivesjson","ppcc_DirectivesJSON","String","True","","False","True",,,,,,"4000","TextArea"
+"Action Name","ppcc_name","ppcc_Name","String","True","","False","True",,,,,,"250","Text"
+"Order","ppcc_order","ppcc_order","Integer","True","Execution order of this action relative to others within the same rule group.","False","True",,,,,,,
+"Reference Attribute","ppcc_referenceattribute","ppcc_referenceattribute","String","True","Logical name of the attribute used as a reference/source value for calculation-based actions (e.g., Calculate Business Days, Date Calculation).","False","True",,,,,,"250","Text"
+"Rule Action","ppcc_ruleactionid","ppcc_ruleactionId","Uniqueidentifier","False","Unique identifier for entity instances","False","False",,,,,,,
+"Rule Group","ppcc_rulegroupid","ppcc_rulegroupid","Lookup","True","The rule group that this action belongs to.","False","False",,,,,,,
+"ppcc_rulegroupidname","ppcc_rulegroupidname","ppcc_rulegroupidName","String","True","","False","True",,,,,,"250","Text"
+"Value","ppcc_value","ppcc_value","String","True","The value or amount used by the action (e.g., the number of days to add, or the value to set or increment by).","False","True",,,,,,"250","Text"
+"statecodename","statecodename","statecodeName","Virtual","False","","False","False",,,,,,,
+"statuscodename","statuscodename","statuscodeName","Virtual","False","","False","False",,,,,,,

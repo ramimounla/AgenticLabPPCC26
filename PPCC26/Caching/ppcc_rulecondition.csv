@@ -1,0 +1,29 @@
+﻿"DisplayName","LogicalName","SchemaName","DataType","IsCustomField","Description","IsRequired","IsAudited","IsPrimaryId","IsPrimaryName","IsValidForRead","IsValidForCreate","IsValidForUpdate","MaxLength","Format"
+"createdbyname","createdbyname","CreatedByName","String","False","","False","False",,,,,,"100","Text"
+"createdbyyominame","createdbyyominame","CreatedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Created By (Delegate)","createdonbehalfby","CreatedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who created the record.","False","False",,,,,,,
+"createdonbehalfbyname","createdonbehalfbyname","CreatedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"createdonbehalfbyyominame","createdonbehalfbyyominame","CreatedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyname","modifiedbyname","ModifiedByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyyominame","modifiedbyyominame","ModifiedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Modified By (Delegate)","modifiedonbehalfby","ModifiedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who modified the record.","False","False",,,,,,,
+"modifiedonbehalfbyname","modifiedonbehalfbyname","ModifiedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedonbehalfbyyominame","modifiedonbehalfbyyominame","ModifiedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"owneridname","owneridname","OwnerIdName","String","False","Name of the owner","False","False",,,,,,"100","Text"
+"owneridtype","owneridtype","OwnerIdType","EntityName","False","Owner Id Type","False","True",,,,,,,
+"owneridyominame","owneridyominame","OwnerIdYomiName","String","False","Yomi name of the owner","False","False",,,,,,"100","Text"
+"owningbusinessunitname","owningbusinessunitname","OwningBusinessUnitName","String","False","","False","True",,,,,,"100","Text"
+"Field Name","ppcc_fieldname","ppcc_fieldname","String","True","Logical name of the attribute this condition evaluates.","False","True",,,,,,"100","Text"
+"Incoming Attribute","ppcc_incomingattribute","ppcc_incomingattribute","Boolean","True","When true, the condition evaluates the incoming (new) attribute value; when false, it evaluates the pre-existing (current) value.","False","True",,,,,,,
+"ppcc_incomingattributename","ppcc_incomingattributename","ppcc_incomingattributeName","Virtual","True","","False","False",,,,,,,
+"Condition Name","ppcc_name","ppcc_Name","String","True","","False","True",,,,,,"250","Text"
+"Operand","ppcc_operand","ppcc_Operand","Picklist","True","","False","True",,,,,,,
+"ppcc_operandname","ppcc_operandname","ppcc_operandName","Virtual","True","","False","False",,,,,,,
+"Order","ppcc_order","ppcc_order","Integer","True","Execution order of this condition relative to others within the same rule group.","False","True",,,,,,,
+"Rule Condition","ppcc_ruleconditionid","ppcc_ruleconditionId","Uniqueidentifier","False","Unique identifier for entity instances","False","False",,,,,,,
+"Rule Group","ppcc_rulegroupid","ppcc_rulegroupid","Lookup","True","The rule group that this condition belongs to.","False","False",,,,,,,
+"ppcc_rulegroupidname","ppcc_rulegroupidname","ppcc_rulegroupidName","String","True","","False","True",,,,,,"250","Text"
+"Value","ppcc_value","ppcc_value","String","True","Comma-separated raw values (e.g., option set values or IDs) that the field is compared against.","False","True",,,,,,"250","Text"
+"Value Label","ppcc_valuelabel","ppcc_valuelabel","String","True","Comma-separated human-readable labels corresponding to the values in the Value field.","False","True",,,,,,"250","Text"
+"statecodename","statecodename","statecodeName","Virtual","False","","False","False",,,,,,,
+"statuscodename","statuscodename","statuscodeName","Virtual","False","","False","False",,,,,,,

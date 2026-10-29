@@ -1,0 +1,22 @@
+﻿"DisplayName","LogicalName","SchemaName","DataType","IsCustomField","Description","IsRequired","IsAudited","IsPrimaryId","IsPrimaryName","IsValidForRead","IsValidForCreate","IsValidForUpdate","MaxLength","Format"
+"createdbyname","createdbyname","CreatedByName","String","False","","False","False",,,,,,"100","Text"
+"createdbyyominame","createdbyyominame","CreatedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Created By (Delegate)","createdonbehalfby","CreatedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who created the record.","False","False",,,,,,,
+"createdonbehalfbyname","createdonbehalfbyname","CreatedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"createdonbehalfbyyominame","createdonbehalfbyyominame","CreatedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyname","modifiedbyname","ModifiedByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyyominame","modifiedbyyominame","ModifiedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Modified By (Delegate)","modifiedonbehalfby","ModifiedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who modified the record.","False","False",,,,,,,
+"modifiedonbehalfbyname","modifiedonbehalfbyname","ModifiedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedonbehalfbyyominame","modifiedonbehalfbyyominame","ModifiedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"owneridname","owneridname","OwnerIdName","String","False","Name of the owner","False","False",,,,,,"100","Text"
+"owneridtype","owneridtype","OwnerIdType","EntityName","False","Owner Id Type","False","True",,,,,,,
+"owneridyominame","owneridyominame","OwnerIdYomiName","String","False","Yomi name of the owner","False","False",,,,,,"100","Text"
+"owningbusinessunitname","owningbusinessunitname","OwningBusinessUnitName","String","False","","False","True",,,,,,"100","Text"
+"Event Trigger","ppcc_eventtriggerid","ppcc_eventtriggerid","Lookup","True","The event trigger that this rule group belongs to.","False","False",,,,,,,
+"ppcc_eventtriggeridname","ppcc_eventtriggeridname","ppcc_eventtriggeridName","String","True","","False","True",,,,,,"250","Text"
+"Rule Group Name","ppcc_name","ppcc_Name","String","True","","False","True",,,,,,"250","Text"
+"Order","ppcc_order","ppcc_order","Integer","True","Execution order of this rule group relative to others within the same event trigger.","False","True",,,,,,,
+"Rule Group","ppcc_rulegroupid","ppcc_rulegroupId","Uniqueidentifier","False","Unique identifier for entity instances","False","False",,,,,,,
+"statecodename","statecodename","statecodeName","Virtual","False","","False","False",,,,,,,
+"statuscodename","statuscodename","statuscodeName","Virtual","False","","False","False",,,,,,,

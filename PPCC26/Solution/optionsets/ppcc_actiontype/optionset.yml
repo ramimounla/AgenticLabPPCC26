@@ -1,0 +1,104 @@
+optionset:
+  '@Name': ppcc_actiontype
+  '@localizedName': Action Type
+  OptionSetType: picklist
+  IsGlobal: 1
+  IntroducedVersion: 1.0.0.1
+  IsCustomizable: 1
+  displaynames:
+    displayname:
+      '@description': Action Type
+      '@languagecode': 1033
+  options:
+    option:
+    - '@value': 10000000
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Calculate Business Days
+          '@languagecode': 1033
+    - '@value': 10000010
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Calculate Business Hours
+          '@languagecode': 1033
+    - '@value': 10000020
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Cascade
+          '@languagecode': 1033
+    - '@value': 10000030
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Cascade State Only
+          '@languagecode': 1033
+    - '@value': 10000040
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Cascade Status
+          '@languagecode': 1033
+    - '@value': 10000050
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Create Record
+          '@languagecode': 1033
+    - '@value': 10000060
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Date Calculation
+          '@languagecode': 1033
+    - '@value': 10000070
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Disable Record
+          '@languagecode': 1033
+    - '@value': 10000080
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Increment Attribute
+          '@languagecode': 1033
+    - '@value': 10000090
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Move BPF Stage
+          '@languagecode': 1033
+    - '@value': 10000110
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Swap BPF
+          '@languagecode': 1033
+    - '@value': 10000120
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Update Attribute
+          '@languagecode': 1033
+    - '@value': 10000130
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Update Attribute from other Attribute
+          '@languagecode': 1033

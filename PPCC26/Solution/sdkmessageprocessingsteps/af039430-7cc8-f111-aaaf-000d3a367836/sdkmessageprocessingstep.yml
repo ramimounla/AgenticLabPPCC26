@@ -1,0 +1,20 @@
+SdkMessageProcessingStep:
+  '@Name': 'PPCC26.Plugins.RuleEnginePlugin: Post-Create ppcc_customcase'
+  '@SdkMessageProcessingStepId': '{af039430-7cc8-f111-aaaf-000d3a367836}'
+  SdkMessageId: 9ebdbb1b-ea3e-db11-86a7-000a3a5473e8
+  PluginTypeName: PPCC26.Plugins.RuleEnginePlugin, PPCC26, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4fff0d5af8c1f073
+  PluginTypeId: ae039430-7cc8-f111-aaaf-000d3a367836
+  PrimaryEntity: ppcc_customcase
+  AsyncAutoDelete: 0
+  Description: 'PPCC26.Plugins.RuleEnginePlugin: Post-Create ppcc_customcase'
+  FilteringAttributes: ppcc_type
+  InvocationSource: 1
+  Mode: 0
+  Rank: 1
+  EventHandlerTypeCode: 4602
+  Stage: 40
+  IsCustomizable: 1
+  IsHidden: 0
+  SupportedDeployment: 0
+  IntroducedVersion: 1.0
+  SdkMessageProcessingStepImages: 

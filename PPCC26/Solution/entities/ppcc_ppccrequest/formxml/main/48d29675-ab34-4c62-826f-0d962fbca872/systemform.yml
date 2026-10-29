@@ -1,0 +1,102 @@
+systemform:
+  formid: '{48d29675-ab34-4c62-826f-0d962fbca872}'
+  IntroducedVersion: 1.0.0.2
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{2dc90c0f-bdc5-4e26-863f-e535ac82eebc}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+          - '@width': 33%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{5e2f874d-88e4-42f0-bbc7-789881720fc2}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{fd8c70cb-ec59-4938-bd82-293b5a773ac5}'
+                      labels:
+                        label:
+                          '@description': PPCC Request Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': ppcc_name
+                  - cell:
+                      '@id': '{dbcbb97f-90b0-45e4-af0f-c1f7ff998fe5}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+          - '@width': 66%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@id': '{c4fffcbb-6f2f-44dc-bf0e-afd1a1ab5093}'
+                '@IsUserDefined': 0
+                '@height': auto
+                labels:
+                  label:
+                    '@description': Notes
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@showlabel': false
+                      '@rowspan': 15
+                      '@auto': false
+                      '@id': '{1547f08a-d12e-4c52-8683-4104c6e19773}'
+                      labels:
+                        label:
+                          '@description': Note Text
+                          '@languagecode': 1033
+                      control:
+                        '@id': notescontrol
+                        '@classid': '{06375649-c143-495e-a496-c962e5b4488e}'
+                        parameters:
+                          DefaultTabId: NotesTab
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - 
+                  - '@height': auto
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

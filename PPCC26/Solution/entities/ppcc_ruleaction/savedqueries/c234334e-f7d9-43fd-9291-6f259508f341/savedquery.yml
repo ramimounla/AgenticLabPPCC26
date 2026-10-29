@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{c234334e-f7d9-43fd-9291-6f259508f341}'
+  layoutxml:
+    grid:
+      '@name': ppcc_ruleactions
+      '@jump': ppcc_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': ppcc_ruleaction
+        '@id': ppcc_ruleactionid
+        cell:
+        - '@name': ppcc_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': ppcc_ruleaction
+        attribute:
+        - '@name': ppcc_ruleactionid
+        - '@name': ppcc_name
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0.0.1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Rule Action Lookup View
+      '@languagecode': 1033

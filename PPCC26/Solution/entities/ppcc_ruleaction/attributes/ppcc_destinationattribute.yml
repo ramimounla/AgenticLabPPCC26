@@ -1,0 +1,42 @@
+attribute:
+  '@PhysicalName': ppcc_destinationattribute
+  Type: nvarchar
+  Name: ppcc_destinationattribute
+  LogicalName: ppcc_destinationattribute
+  RequiredLevel: required
+  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 1
+  ValidForReadApi: 1
+  ValidForCreateApi: 1
+  IsCustomField: 1
+  IsAuditEnabled: 1
+  IsSecured: 0
+  IntroducedVersion: 1.0.0.1
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 0
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  AutoNumberFormat: ''
+  IsSearchable: 0
+  IsFilterable: 0
+  IsRetrievable: 0
+  IsLocalizable: 0
+  Format: text
+  MaxLength: 250
+  Length: 500
+  displaynames:
+    displayname:
+      '@description': Destination Attribute
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': Logical name of the attribute this action updates, optionally prefixed with a related entity (e.g., ppcc_journey.ppcc_applicationsinterviewcount).
+      '@languagecode': 1033

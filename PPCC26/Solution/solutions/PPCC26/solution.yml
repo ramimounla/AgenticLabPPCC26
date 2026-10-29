@@ -1,0 +1,17 @@
+ImportExportXml:
+  '@version': 9.2.26093.167
+  '@SolutionPackageVersion': 9.2
+  '@languagecode': 1033
+  '@generatedBy': CrmLive
+  '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  SolutionManifest:
+    UniqueName: PPCC26
+    LocalizedNames:
+      LocalizedName:
+        '@description': PPCC26
+        '@languagecode': 1033
+    Descriptions: 
+    Version: 1.0.0.6
+    Managed: 0
+    Publisher:
+      UniqueName: PPCC

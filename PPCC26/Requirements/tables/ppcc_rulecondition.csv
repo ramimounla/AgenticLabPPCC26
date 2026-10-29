@@ -1,0 +1,8 @@
+﻿AttributeDisplayName,AttributeSchemaName,AttributeType,MaxLength,Format,TargetTable,IsRequired,IsAudited,Description,Precision,MinValue,MaxValue,IsGlobal,ChoiceValues
+"Rule Group","rulegroupid","Lookup",,,"ppcc_rulegroup","true","true","The rule group that this condition belongs to.",,,,,
+"Field Name","fieldname","Text",100,,,"true","true","Logical name of the attribute this condition evaluates.",,,,,
+"Operand","operand","Choice",,,,"true","true","The comparison operator applied to the field value.",,,,"true",Equal|Not Equal|Greater Than|Less Than|Greater Than or Equal|Less Than or Equal|Contains Data|Does not Contain Data
+"Incoming Attribute","incomingattribute","Boolean",,,,"false","true","When true, the condition evaluates the incoming (new) attribute value; when false, it evaluates the pre-existing (current) value.",,,,,
+"Value Label","valuelabel","Text",250,,,"false","true","Comma-separated human-readable labels corresponding to the values in the Value field.",,,,,
+"Value","value","Text",250,,,"true","true","Comma-separated raw values (e.g., option set values or IDs) that the field is compared against.",,,,,
+"Order","order","Integer",,,,"false","true","Execution order of this condition relative to others within the same rule group.",,0,1000,,

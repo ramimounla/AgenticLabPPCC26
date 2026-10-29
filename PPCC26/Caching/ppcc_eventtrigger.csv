@@ -1,0 +1,30 @@
+﻿"DisplayName","LogicalName","SchemaName","DataType","IsCustomField","Description","IsRequired","IsAudited","IsPrimaryId","IsPrimaryName","IsValidForRead","IsValidForCreate","IsValidForUpdate","MaxLength","Format"
+"createdbyname","createdbyname","CreatedByName","String","False","","False","False",,,,,,"100","Text"
+"createdbyyominame","createdbyyominame","CreatedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Created By (Delegate)","createdonbehalfby","CreatedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who created the record.","False","False",,,,,,,
+"createdonbehalfbyname","createdonbehalfbyname","CreatedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"createdonbehalfbyyominame","createdonbehalfbyyominame","CreatedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyname","modifiedbyname","ModifiedByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedbyyominame","modifiedbyyominame","ModifiedByYomiName","String","False","","False","False",,,,,,"100","Text"
+"Modified By (Delegate)","modifiedonbehalfby","ModifiedOnBehalfBy","Lookup","False","Unique identifier of the delegate user who modified the record.","False","False",,,,,,,
+"modifiedonbehalfbyname","modifiedonbehalfbyname","ModifiedOnBehalfByName","String","False","","False","False",,,,,,"100","Text"
+"modifiedonbehalfbyyominame","modifiedonbehalfbyyominame","ModifiedOnBehalfByYomiName","String","False","","False","False",,,,,,"100","Text"
+"owneridname","owneridname","OwnerIdName","String","False","Name of the owner","False","False",,,,,,"100","Text"
+"owneridtype","owneridtype","OwnerIdType","EntityName","False","Owner Id Type","False","True",,,,,,,
+"owneridyominame","owneridyominame","OwnerIdYomiName","String","False","Yomi name of the owner","False","False",,,,,,"100","Text"
+"owningbusinessunitname","owningbusinessunitname","OwningBusinessUnitName","String","False","","False","True",,,,,,"100","Text"
+"Attributes","ppcc_attributes","ppcc_attributes","String","True","Comma-separated logical names of the attributes that trigger this event when updated.","False","True",,,,,,"100","Text"
+"Description","ppcc_description","ppcc_description","String","True","Describes the purpose and behavior of the event trigger.","False","True",,,,,,"2000","Text"
+"Event Trigger","ppcc_eventtriggerid","ppcc_eventtriggerId","Uniqueidentifier","False","Unique identifier for entity instances","False","False",,,,,,,
+"Execute All Rules","ppcc_executeallrules","ppcc_executeallrules","Boolean","True","When true, all matching rules for the table/message/stage are executed instead of stopping at the first match.","False","True",,,,,,,
+"ppcc_executeallrulesname","ppcc_executeallrulesname","ppcc_executeallrulesName","Virtual","True","","False","False",,,,,,,
+"Message","ppcc_message","ppcc_message","Picklist","True","","False","True",,,,,,,
+"ppcc_messagename","ppcc_messagename","ppcc_messageName","Virtual","True","","False","False",,,,,,,
+"Event Trigger Name","ppcc_name","ppcc_Name","String","True","","False","True",,,,,,"250","Text"
+"Order","ppcc_order","ppcc_order","Integer","True","Execution order of this event trigger relative to others for the same table/message/stage.","False","True",,,,,,,
+"Pre Image Attributes","ppcc_preimageattributes","ppcc_PreImageAttributes","String","True","","False","True",,,,,,"1000","Text"
+"Stage","ppcc_stage","ppcc_stage","Picklist","True","","False","True",,,,,,,
+"ppcc_stagename","ppcc_stagename","ppcc_stageName","Virtual","True","","False","False",,,,,,,
+"Table","ppcc_table","ppcc_table","String","True","Logical name of the Dataverse table this event trigger is associated with.","False","True",,,,,,"100","Text"
+"statecodename","statecodename","statecodeName","Virtual","False","","False","False",,,,,,,
+"statuscodename","statuscodename","statuscodeName","Virtual","False","","False","False",,,,,,,

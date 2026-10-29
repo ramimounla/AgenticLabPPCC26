@@ -1,0 +1,20 @@
+EntityRelationship:
+  '@Name': lk_ppcc_ppccrequest_modifiedby
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0.0.2
+  IsHierarchical: 0
+  ReferencingEntityName: ppcc_ppccrequest
+  ReferencedEntityName: SystemUser
+  CascadeAssign: NoCascade
+  CascadeDelete: NoCascade
+  CascadeArchive: NoCascade
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  ReferencingAttributeName: ModifiedBy
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': Unique identifier of the user who modified the record.
+        '@languagecode': 1033

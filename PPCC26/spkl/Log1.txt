@@ -1,0 +1,24 @@
+12:21:18 pm	Deploying WebResources
+12:21:18 pm	Using Config 'C:\Projects\PPCC26\PPCC26'
+12:21:58 pm	Deploying WebResources
+12:21:58 pm	Using Config 'C:\Projects\PPCC26\PPCC26'
+12:21:59 pm	Updating Webresource 'ppcc_customcase.js' -> 'ppcc_customcase'
+12:22:00 pm	Adding to solution '<SolutionUniqueName>'
+12:22:44 pm	Deploying WebResources
+12:22:44 pm	Using Config 'C:\Projects\PPCC26\PPCC26'
+12:22:45 pm	Updating Webresource 'ppcc_customcase.js' -> 'ppcc_customcase'
+12:22:46 pm	Adding to solution 'PPCC26'
+12:22:48 pm	Deployed 1 webresource(s)
+12:22:48 pm	Publishing 1 webresources...
+12:22:59 pm	Publish complete.
+12:22:59 pm	Processed 1 section(s)
+12:22:59 pm	Processed 1 config(s)
+12:26:17 pm	Deploying WebResources
+12:26:17 pm	Using Config 'C:\Projects\PPCC26\PPCC26'
+12:26:18 pm	Updating Webresource 'ppcc_customcase.js' -> 'ppcc_customcase'
+12:26:19 pm	Adding to solution 'PPCC26'
+12:26:19 pm	Deployed 1 webresource(s)
+12:26:19 pm	Publishing 1 webresources...
+12:26:24 pm	Publish complete.
+12:26:24 pm	Processed 1 section(s)
+12:26:24 pm	Processed 1 config(s)

@@ -1,0 +1,8 @@
+AttributeDisplayName,AttributeSchemaName,AttributeType,MaxLength,Format,TargetTable,IsRequired,IsAudited,Description,Precision,MinValue,MaxValue,IsGlobal,ChoiceValues
+"Description","description","Text",2000,,,"true","true","Describes the purpose and behavior of the event trigger.",,,,,
+"Table","table","Text",100,,,"true","true","Logical name of the Dataverse table this event trigger is associated with.",,,,,
+"Attributes","attributes","Text",100,,,"true","true","Comma-separated logical names of the attributes that trigger this event when updated.",,,,,
+"Execute All Rules","executeallrules","Boolean",,,,"false","true","When true, all matching rules for the table/message/stage are executed instead of stopping at the first match.",,,,,
+"Order","order","Integer",,,,"false","true","Execution order of this event trigger relative to others for the same table/message/stage.",,0,1000,,
+"Message","message","Choice",,,,"true","true","The message that fires this trigger.",,,,"false","Create|Update|Create and Update"
+"Stage","stage","Choice",,,,"true","true","The pipeline stage at which this trigger executes.",,,,"false","Pre-operation|Post-operation"

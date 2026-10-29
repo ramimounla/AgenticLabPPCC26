@@ -1,0 +1,8 @@
+[    2743ms] [LOG] true @ https://login.live.com/Me.htm?v=3:0
+[    2744ms] [LOG] Storage access: true @ https://login.live.com/Me.htm?v=3:0
+[    6480ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://www.microsoft.com/mwf/_h/v3.54/mwf.app/fonts/mwfmdl2-v3.54.woff @ https://m365.cloud.microsoft/:939
+[    9236ms] [WARNING] No previously cached ECS telemetry config exists - fallback to sending event @ https://res.cdn.office.net/officehub/bundles/unauth-mcm-scripts-3a63c39575.js:1
+[    9236ms] [LOG] ECS - Config fetch complete @ https://res.cdn.office.net/officehub/bundles/unauth-mcm-scripts-3a63c39575.js:1
+[    9769ms] [LOG] [floodgate] Floodgate module loaded @ https://res.cdn.office.net/admincenter/admin-main/2026.10.12.6/floodgate.en.bundle.js:272
+[   10324ms] [LOG] true @ https://login.live.com/Me.htm?v=3:0
+[   10325ms] [LOG] Storage access: true @ https://login.live.com/Me.htm?v=3:0

@@ -1,0 +1,63 @@
+RootComponents:
+  RootComponent:
+  - '@type': 1
+    '@schemaName': ppcc_customcase
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': ppcc_customerrequest
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': ppcc_eventtrigger
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': ppcc_ppccrequest
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': ppcc_ruleaction
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': ppcc_rulecondition
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': ppcc_rulegroup
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': ppcc_submission
+    '@behavior': 0
+  - '@type': 9
+    '@schemaName': ppcc_actiontype
+    '@behavior': 0
+  - '@type': 9
+    '@schemaName': ppcc_operand
+    '@behavior': 0
+  - '@type': 9
+    '@schemaName': ppcc_priority
+    '@behavior': 0
+  - '@type': 20
+    '@id': '{9bf98c27-15d0-f111-a05b-000d3a367836}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{0e7ace26-7bce-f111-a05b-000d3a367836}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{bb713c39-73c8-f111-aaaf-000d3a367836}'
+    '@behavior': 0
+  - '@type': 61
+    '@schemaName': ppcc_customcase
+    '@behavior': 0
+  - '@type': 61
+    '@schemaName': ppcc_formUtilities
+    '@behavior': 0
+  - '@type': 62
+    '@schemaName': ppcc_PPCC2026
+    '@behavior': 0
+  - '@type': 80
+    '@schemaName': ppcc_PPCC2026
+    '@behavior': 0
+  - '@type': 91
+    '@id': '{ac039430-7cc8-f111-aaaf-000d3a367836}'
+    '@schemaName': PPCC26, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4fff0d5af8c1f073
+    '@behavior': 0
+  - '@type': 92
+    '@id': '{af039430-7cc8-f111-aaaf-000d3a367836}'
+    '@behavior': 0

@@ -1,0 +1,17 @@
+﻿{
+    "table":  "ppcc_customcase",
+    "choices":  {
+                    "ppcc_type":  {
+                                      "100000002":  "Incident",
+                                      "100000004":  "Other",
+                                      "100000003":  "Sickness",
+                                      "100000001":  "Fatality",
+                                      "100000000":  "Injury"
+                                  },
+                    "ppcc_priority":  {
+                                          "100000002":  "Low",
+                                          "100000001":  "Medium",
+                                          "100000000":  "High"
+                                      }
+                }
+}

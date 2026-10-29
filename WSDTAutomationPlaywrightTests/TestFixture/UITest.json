@@ -1,0 +1,14 @@
+[
+  {
+    "Type": 2,
+    "AttributeName": null,
+    "TableName": "ppcc_customcase",
+    "Value": null
+  },
+  {
+    "Type": 1,
+    "AttributeName": "Name",
+    "TableName": null,
+    "Value": "First test"
+  }
+]

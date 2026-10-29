@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{4deaf706-10f5-4a67-86a5-7a764d92fcd9}'
+  layoutxml:
+    grid:
+      '@name': ppcc_ppccrequests
+      '@jump': ppcc_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': ppcc_ppccrequest
+        '@id': ppcc_ppccrequestid
+        cell:
+        - '@name': ppcc_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': ppcc_ppccrequest
+        attribute:
+        - '@name': ppcc_ppccrequestid
+        - '@name': ppcc_name
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0.0.2
+  LocalizedNames:
+    LocalizedName:
+      '@description': PPCC Request Lookup View
+      '@languagecode': 1033

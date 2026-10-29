@@ -1,0 +1,204 @@
+systemform:
+  formid: '{f6041cf8-769b-4aba-960b-2d001e788a73}'
+  IntroducedVersion: 1.0.0.1
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    '@headerdensity': HighWithControls
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{d4eb71fb-2667-4990-9df2-d6aa3f931dbf}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{9ba7221d-b018-4318-8de8-9075f5927fcb}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{f9d7f45d-1251-405c-ac43-2b9ced110637}'
+                      labels:
+                        label:
+                          '@description': Rule Group Name
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_name
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': ppcc_name
+                  - cell:
+                      '@id': '{2d83f2d0-2297-4312-b8c6-d1343c847eb6}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Event Trigger
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_eventtriggerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ppcc_eventtriggerid
+                        '@disabled': false
+                  - cell:
+                      '@id': '{812977d6-6bd5-4230-9625-fad459815fe5}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Order
+                          '@languagecode': 1033
+                      control:
+                        '@id': ppcc_order
+                        '@classid': '{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}'
+                        '@datafieldname': ppcc_order
+                        '@disabled': false
+                  - cell:
+                      '@locklevel': 0
+                      '@id': '{8e4d2015-33a5-4521-b9ea-66972ee1ff69}'
+                      '@rowspan': 4
+                      '@colspan': 1
+                      '@auto': false
+                      labels:
+                        label:
+                          '@description': Conditions
+                          '@languagecode': 1033
+                      control:
+                        '@indicationOfSubgrid': true
+                        '@id': Subgrid_new_1
+                        '@classid': '{E7A81278-8635-4D9E-8D4D-59480B391C5B}'
+                        parameters:
+                          RecordsPerPage: 4
+                          AutoExpand: Fixed
+                          EnableQuickFind: false
+                          EnableViewPicker: false
+                          EnableChartPicker: true
+                          ChartGridMode: All
+                          RelationshipName: ppcc_rulecondition_ppcc_rulegroup
+                          TargetEntityType: ppcc_rulecondition
+                          ViewId: '{58AA63C0-6566-4EB2-8899-30E1A67E6511}'
+                          ViewIds: '{58AA63C0-6566-4EB2-8899-30E1A67E6511}'
+                  - 
+                  - 
+                  - 
+                  - cell:
+                      '@locklevel': 0
+                      '@id': '{90ac8a5b-6761-4102-95a1-94e9344266af}'
+                      '@rowspan': 4
+                      '@colspan': 1
+                      '@auto': false
+                      labels:
+                        label:
+                          '@description': Actions
+                          '@languagecode': 1033
+                      control:
+                        '@indicationOfSubgrid': true
+                        '@id': Subgrid_new_2
+                        '@classid': '{E7A81278-8635-4D9E-8D4D-59480B391C5B}'
+                        parameters:
+                          RecordsPerPage: 4
+                          AutoExpand: Fixed
+                          EnableQuickFind: false
+                          EnableViewPicker: false
+                          EnableChartPicker: true
+                          ChartGridMode: All
+                          RelationshipName: ppcc_ruleaction_ppcc_rulegroup
+                          TargetEntityType: ppcc_ruleaction
+                          ViewId: '{0C4265BC-5744-40B8-8EB6-F9D6914A00C0}'
+                          ViewIds: '{0C4265BC-5744-40B8-8EB6-F9D6914A00C0}'
+                  - 
+                  - 
+                  - 
+    header:
+      '@id': '{660bead5-545c-4cb4-afbe-d4c932a61b8f}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{2ed2ab35-4f02-41b6-8330-43158e98f7be}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{9a134eda-2a72-45ed-950a-be9e55cd7fc6}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{27cf58a4-5959-4356-a17f-2ad7ac922917}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{214f3454-58d9-408b-8d18-b641757e7255}'
+            '@colspan': 1
+            '@rowspan': 1
+            labels:
+              label:
+                '@description': Owner
+                '@languagecode': 1033
+            control:
+              '@id': header_ownerid
+              '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+              '@datafieldname': ownerid
+    footer:
+      '@id': '{0aedb6ec-19c4-4bea-8b06-6d851c7f288f}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{4876d82e-847f-4852-b46c-4fd75c8b9692}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{517939f4-d9a7-4d89-b430-89cb4eaf8a3b}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{4acca79d-5149-4f8e-afa5-7c900b010a64}'
+            '@showlabel': false
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    DisplayConditions:
+      '@Order': 0
+      '@FallbackForm': true
+      Everyone: 
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

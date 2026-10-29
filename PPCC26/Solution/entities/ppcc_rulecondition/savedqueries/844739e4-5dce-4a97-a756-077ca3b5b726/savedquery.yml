@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 0
+  savedqueryid: '{844739e4-5dce-4a97-a756-077ca3b5b726}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': ppcc_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': ppcc_ruleconditionid
+        cell:
+        - '@name': ppcc_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': ppcc_rulecondition
+        attribute:
+        - '@name': ppcc_ruleconditionid
+        - '@name': ppcc_name
+        - '@name': createdon
+        order:
+          '@attribute': ppcc_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 1
+  IntroducedVersion: 1.0.0.1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Inactive Rule Conditions
+      '@languagecode': 1033

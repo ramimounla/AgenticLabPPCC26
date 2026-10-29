@@ -1,0 +1,90 @@
+AppModuleSiteMap:
+  SiteMapUniqueName: ppcc_PPCC2026
+  EnableCollapsibleGroups: False
+  ShowHome: True
+  ShowPinned: True
+  ShowRecents: True
+  SiteMap:
+    '@IntroducedVersion': 7.0.0.0
+    Area:
+    - '@Id': area_incident
+      '@ResourceId': SitemapDesigner.NewTitle
+      '@DescriptionResourceId': SitemapDesigner.NewTitle
+      '@ShowGroups': true
+      '@IntroducedVersion': 7.0.0.0
+      Titles:
+        Title:
+          '@LCID': 1033
+          '@Title': Incident Management
+      Group:
+        '@Id': group_cases
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Cases
+        SubArea:
+          '@Id': subarea_cf60fd80
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': ppcc_customcase
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+    - '@Id': area_admin
+      '@ResourceId': SitemapDesigner.NewTitle
+      '@DescriptionResourceId': SitemapDesigner.NewTitle
+      '@ShowGroups': true
+      '@IntroducedVersion': 7.0.0.0
+      Titles:
+        Title:
+          '@LCID': 1033
+          '@Title': Administration
+      Group:
+        '@Id': group_rules
+        '@ResourceId': SitemapDesigner.NewGroup
+        '@DescriptionResourceId': SitemapDesigner.NewGroup
+        '@IntroducedVersion': 7.0.0.0
+        '@IsProfile': false
+        '@ToolTipResourseId': SitemapDesigner.Unknown
+        Titles:
+          Title:
+            '@LCID': 1033
+            '@Title': Rules Configuration
+        SubArea:
+        - '@Id': subarea_23ada582
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': ppcc_eventtrigger
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_4ecdcf3c
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': ppcc_rulegroup
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_918a9603
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': ppcc_rulecondition
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+        - '@Id': subarea_3f7aaf5f
+          '@Icon': /_imgs/imagestrips/transparent_spacer.gif
+          '@Entity': ppcc_ruleaction
+          '@Client': All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web
+          '@AvailableOffline': true
+          '@PassParams': false
+          '@Sku': All,OnPremise,Live,SPLA
+  LocalizedNames:
+    LocalizedName:
+      '@description': PPCC 2026
+      '@languagecode': 1033

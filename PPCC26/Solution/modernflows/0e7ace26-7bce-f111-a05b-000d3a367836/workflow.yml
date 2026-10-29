@@ -1,0 +1,27 @@
+Workflow:
+  '@WorkflowId': '{0e7ace26-7bce-f111-a05b-000d3a367836}'
+  '@Name': Update country to NZ
+  JsonFileName: /modernflows/0e7ace26-7bce-f111-a05b-000d3a367836/UpdatecountrytoNZ-0E7ACE26-7BCE-F111-A05B-000D3A367836.json
+  Type: 1
+  Subprocess: 0
+  Category: 5
+  Mode: 0
+  Scope: 4
+  OnDemand: 0
+  TriggerOnCreate: 0
+  TriggerOnDelete: 0
+  AsyncAutodelete: 0
+  SyncWorkflowLogOnFailure: 0
+  StateCode: 1
+  StatusCode: 2
+  RunAs: 1
+  IsTransacted: 1
+  IntroducedVersion: 1.0.0.3
+  IsCustomizable: 1
+  IsCustomProcessingStepAllowedForOtherPublishers: 1
+  ModernFlowType: 0
+  PrimaryEntity: none
+  LocalizedNames:
+    LocalizedName:
+      '@languagecode': 1033
+      '@description': Update country to NZ

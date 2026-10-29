@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{189a8e06-d946-4d44-a20f-906fe062f723}</savedqueryid>
+    <layoutxml>
+      <grid name="ppcc_rulegroups" jump="ppcc_name" select="1" icon="1" preview="1">
+        <row name="ppcc_rulegroup" id="ppcc_rulegroupid">
+          <cell name="ppcc_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ppcc_rulegroup">
+          <attribute name="ppcc_rulegroupid" />
+          <attribute name="ppcc_name" />
+          <attribute name="createdon" />
+          <order attribute="ppcc_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Rule Group Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

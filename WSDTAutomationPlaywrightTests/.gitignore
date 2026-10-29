@@ -1,0 +1,82 @@
+#Build output
+.vs/
+.obj/
+bin/
+*.user
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# NuGet
+packages/
+.nuget/
+*.nupkg
+*.snupkg
+
+# NUnit, test results and code coverage
+TestResults/
+**/TestResults/
+*.trx
+*.testlog
+
+# Playwright generated files
+# Playwright reports and result folders
+playwright-report/
+**/playwright-report/
+blob-report/
+**/blob-report/
+test-results/
+**/test-results/
+
+# Generated Playwright runtime copied into build output
+.playwright/
+**/.playwright/
+
+playwright/.cache/
+# Playwright authentication and browser state
+.auth/
+**/.auth/
+*storageState*.json
+*storage-state*.json
+*session*.json
+
+# Playwright diagnostics
+screenshots/
+**/screenshots/
+traces/
+**/traces/
+videos/
+**/videos/
+logs/
+**/logs/
+*.log
+*.webm
+*.mp4
+*.zip
+
+# Configuration
+Config/appsettings.local.json
+
+
+# Explicit secret files
+*.secrets.json
+secrets.json
+
+# Environment-variable files
+.env
+.env.*
+!.env.example
+
+# Pipeline downloads and local artifacts
+drop/
+**/drop/
+downloads/
+**/downloads/
+temp/
+tmp/

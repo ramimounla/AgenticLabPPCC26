@@ -1,0 +1,8 @@
+dvtablesearchentity:
+  '@dvtablesearchentityid': b86e0bf3-bbc9-f111-aaad-6045bd06233b
+  dvtablesearch:
+    dvtablesearchid: 9aff030e-f9c4-f111-aaad-6045bd05d779
+  entitylogicalname: ppcc_rulecondition
+  iscustomizable: 1
+  statecode: 0
+  statuscode: 1

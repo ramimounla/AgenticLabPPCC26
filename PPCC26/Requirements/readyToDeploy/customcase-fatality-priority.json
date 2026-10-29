@@ -1,0 +1,41 @@
+{
+  "event": {
+    "name": "Custom Case Fatality Priority",
+    "description": "Sets priority to High when a custom case type is set to Fatality during creation.",
+    "table": "ppcc_customcase",
+    "attributes": "ppcc_type",
+    "preImageAttributes": "",
+    "message": "Create",
+    "stage": "Post-operation",
+    "executeAllRules": false,
+    "order": 1,
+    "ruleGroups": [
+      {
+        "name": "Fatality Type Detected",
+        "order": 1,
+        "conditions": [
+          {
+            "name": "Type equals Fatality",
+            "fieldName": "ppcc_type",
+            "incomingAttribute": true,
+            "operand": "Equals",
+            "value": "100000001",
+            "valueLabel": "Fatality",
+            "order": 1
+          }
+        ],
+        "actions": [
+          {
+            "name": "Set Priority to High",
+            "actionType": "Update Attribute",
+            "destinationAttribute": "ppcc_priority",
+            "referenceAttribute": "",
+            "value": "100000000",
+            "directivesJson": "{}",
+            "order": 1
+          }
+        ]
+      }
+    ]
+  }
+}

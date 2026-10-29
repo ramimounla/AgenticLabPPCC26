@@ -1,0 +1,27 @@
+Role:
+  '@id': '{9bf98c27-15d0-f111-a05b-000d3a367836}'
+  '@name': 'Rules Engine Read-only '
+  IsCustomizable: 1
+  IsAutoAssigned: 0
+  RolePrivileges:
+    RolePrivilege:
+    - '@name': prvCreateppcc_eventtrigger
+      '@level': Basic
+    - '@name': prvCreateSharePointData
+      '@level': Global
+    - '@name': prvReadppcc_eventtrigger
+      '@level': Global
+    - '@name': prvReadppcc_ruleaction
+      '@level': Global
+    - '@name': prvReadppcc_rulecondition
+      '@level': Global
+    - '@name': prvReadppcc_rulegroup
+      '@level': Global
+    - '@name': prvReadSharePointData
+      '@level': Global
+    - '@name': prvReadSharePointDocument
+      '@level': Global
+    - '@name': prvWriteppcc_rulecondition
+      '@level': Basic
+    - '@name': prvWriteSharePointData
+      '@level': Global

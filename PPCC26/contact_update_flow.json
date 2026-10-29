@@ -1,0 +1,63 @@
+# Create a Power Automate flow that triggers on Contact update and sets country to New Zealand
+
+$flowDefinition = @{
+    "name": "OnContactUpdate_SetCountryToNewZealand"
+    "displayName": "On Contact Update - Set Country to New Zealand"
+    "description": "Triggers when a contact is updated and automatically sets the address country field to New Zealand"
+    "version": "1.0"
+    "state": "Stopped"
+    "createdTime": (Get-Date -Format "o")
+    "lastModifiedBy": ""
+    "createdBy": ""
+    "category": "Automated"
+    "workflowDurationInSeconds": 0
+    "isManaged": $false
+    "isStateless": $false
+    "storage": @{
+        "type": "Flow"
+        "data": @{
+            "actions": @(
+                @{
+                    "name": "OnUpdateRecord"
+                    "type": "Trigger"
+                    "inputs": @{
+                        "connectionName": ""
+                        "entityName": "contact"
+                        "parameters": @{
+                            "@odata.type": "#Microsoft.Dynamics.CRM.OnChangeFilterValue"
+                            "attributeOdataType": "String"
+                            "logicalOperator": "And"
+                            "values": @(
+                                @{
+                                    "property": "countrycode"
+                                    "operator": "Equals"
+                                    "value": ""
+                                }
+                            )
+                        }
+                    }
+                    "runtimeState": "Stopped"
+                },
+                @{
+                    "name": "UpdateContactCountry"
+                    "type": "Action"
+                    "inputs": @{
+                        "connectionName": ""
+                        "entityName": "contact"
+                        "id": "@{body('OnUpdateRecord')?['properties']['recordId']}"
+                        "parameters": @{
+                            "@odata.type": "#Microsoft.Dynamics.CRM.UpdateRequest"
+                            "ODataVersion": "V4"
+                            "target": "@{body('OnUpdateRecord')?['properties']['recordId']}"
+                            "attributes": @{
+                                "countrycode": "NZL"
+                            }
+                        }
+                    }
+                }
+            )
+        }
+    }
+} | ConvertTo-Json -Depth 10
+
+Write-Host $flowDefinition

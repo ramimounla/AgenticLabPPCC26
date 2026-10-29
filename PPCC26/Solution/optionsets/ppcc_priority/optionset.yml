@@ -1,0 +1,51 @@
+optionset:
+  '@Name': ppcc_priority
+  '@localizedName': Priority
+  OptionSetType: picklist
+  IsGlobal: 1
+  IntroducedVersion: 1.0.0.0
+  IsCustomizable: 1
+  ExternalTypeName: ''
+  displaynames:
+    displayname:
+      '@description': Priority
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': ''
+      '@languagecode': 1033
+  options:
+    option:
+    - '@value': 100000000
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': High
+          '@languagecode': 1033
+      Descriptions:
+        Description:
+          '@description': ''
+          '@languagecode': 1033
+    - '@value': 100000001
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Medium
+          '@languagecode': 1033
+      Descriptions:
+        Description:
+          '@description': ''
+          '@languagecode': 1033
+    - '@value': 100000002
+      '@ExternalValue': ''
+      '@IsHidden': 0
+      labels:
+        label:
+          '@description': Low
+          '@languagecode': 1033
+      Descriptions:
+        Description:
+          '@description': ''
+          '@languagecode': 1033

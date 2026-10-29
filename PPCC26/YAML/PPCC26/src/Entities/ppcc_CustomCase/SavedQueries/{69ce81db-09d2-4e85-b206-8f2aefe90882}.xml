@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{69ce81db-09d2-4e85-b206-8f2aefe90882}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ppcc_name" select="1" icon="1" preview="1">
+        <row name="result" id="ppcc_customcaseid">
+          <cell name="ppcc_name" width="300" />
+          <cell name="ppcc_type" width="100" />
+          <cell name="ppcc_other" width="100" />
+          <cell name="ppcc_priority" width="100" />
+          <cell name="ppcc_due" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ppcc_customcase">
+          <attribute name="ppcc_customcaseid" />
+          <attribute name="ppcc_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ppcc_type" />
+          <attribute name="ppcc_other" />
+          <attribute name="ppcc_priority" />
+          <attribute name="ppcc_due" />
+          <order attribute="createdon" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Custom Cases" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,7 @@
+﻿AttributeDisplayName,AttributeSchemaName,AttributeType,MaxLength,Format,TargetTable,IsRequired,IsAudited,Description,Precision,MinValue,MaxValue,IsGlobal,ChoiceValues
+"Rule Group","rulegroupid","Lookup",,,"ppcc_rulegroup","true","true","The rule group that this action belongs to.",,,,,
+"Action Type","actiontype","Choice",,,,"true","true","The type of action to execute.",,,,"true","Calculate Business Days|Calculate Business Hours|Cascade|Cascade State Only|Cascade Status|Create Record|Date Calculation|Disable Record|Increment Attribute|Move BPF Stage|Populate Attribute|Swap BPF|Update Attribute|Update Attribute from other Attribute"
+"Destination Attribute","destinationattribute","Text",250,,,"true","true","Logical name of the attribute this action updates, optionally prefixed with a related entity (e.g., ppcc_journey.ppcc_applicationsinterviewcount).",,,,,
+"Value","value","Text",250,,,"false","true","The value or amount used by the action (e.g., the number of days to add, or the value to set or increment by).",,,,,
+"Reference Attribute","referenceattribute","Text",250,,,"false","true","Logical name of the attribute used as a reference/source value for calculation-based actions (e.g., Calculate Business Days, Date Calculation).",,,,,
+"Order","order","Integer",,,,"false","true","Execution order of this action relative to others within the same rule group.",,0,1000,,
