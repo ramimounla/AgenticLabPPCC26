@@ -45,8 +45,8 @@ function Connect-ToDataverse {
     $config = Get-Content -Path $configPath -Raw | ConvertFrom-Json
     $ServerUrl = $config.target.ServerUrl
 
-    $ClientIdValue = "a293940f-6a0d-4bf2-9037-dbfaff64fd34"
-    $SecretValue = ""
+    $ClientIdValue = "744835ed-bebe-4658-ac23-93173fc916ef"
+    $SecretValue = "N2R8Q~_IX_GPGgN0OZdmOb70v_sOUKITfA5IzcKX"
 
     $script:DataverseConnectionString = "AuthType=ClientSecret;ServiceUri=$($ServerUrl);ClientId=$($ClientIdValue);ClientSecret=$($SecretValue)";
 
