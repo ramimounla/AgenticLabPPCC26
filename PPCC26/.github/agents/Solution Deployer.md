@@ -45,7 +45,7 @@ $serverUrl = (Get-Content -Path ".\Scripts\config.json" -Raw | ConvertFrom-Json)
 Then create the connection profile:
 
 ```powershell
-pac auth create --name "PPCC26Connection" --environment $serverUrl --applicationId "744835ed-bebe-4658-ac23-93173fc916ef" --clientSecret "" --tenant "94edb735-a837-4d0d-80c3-4f9d2b11120c"
+pac auth create --name "PPCC26Connection" --environment $serverUrl --applicationId "744835ed-bebe-4658-ac23-93173fc916ef" --clientSecret "N2R8Q~_IX_GPGgN0OZdmOb70v_sOUKITfA5IzcKX" --tenant "94edb735-a837-4d0d-80c3-4f9d2b11120c"
 ```
 
 The `--environment` value must come from `Scripts\config.json` only. Do not hard-code a different environment URL. Keep the client secret and tenant values as configured in this repo unless you are explicitly updating them.
