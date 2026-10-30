@@ -2,7 +2,7 @@
   "target": {
     // "ServerUrl": "https://ppcc26dev.crm.dynamics.com/",
     "ConnectionName": "MyPPCC26Connection",
-    "ServerUrl": "https://user130ppcc26.crm.dynamics.com/",
+    "ServerUrl": "https://userXXppcc26.crm.dynamics.com/",
     "SolutionName": "PPCC26",
     "Prefix": "ppcc_",
     "ApplicationId": "744835ed-bebe-4658-ac23-93173fc916ef",
