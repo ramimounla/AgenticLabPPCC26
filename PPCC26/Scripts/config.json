@@ -1,6 +1,5 @@
 {
   "target": {
-    // "ServerUrl": "https://ppcc26dev.crm.dynamics.com/",
     "ConnectionName": "MyPPCC26Connection",
     "ServerUrl": "https://userXXppcc26.crm.dynamics.com/",
     "SolutionName": "PPCC26",
